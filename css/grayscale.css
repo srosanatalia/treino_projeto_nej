@@ -150,24 +150,25 @@
 }
 
 .btn-primary {
-  background-color: #64a19d;
+  background-color: #DF3A01;
 }
 
 .btn-primary:hover {
-  background-color: #4f837f;
+  background-color: #FE642E;
 }
 
 .btn-primary:focus {
-  background-color: #4f837f;
+  background-color: #FE642E;
   color: white;
 }
 
 .btn-primary:active {
-  background-color: #467370 !important;
+  background-color: #DF3A01 !important;
 }
 
 .about-section {
-  padding-top: 2rem;
+  padding-top: 2
+  rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -201,7 +202,7 @@
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #DF3A01;
     border-width: .25rem;
     width: 30%;
   }
@@ -246,7 +247,7 @@
 }
 
 .contact-section .card hr {
-  border-color: #64a19d;
+  border-color: #DF3A01;
   border-width: 0.25rem;
   width: 3rem;
 }
@@ -288,7 +289,7 @@ a:focus, a:hover {
 }
 
 .bg-black {
-  background-color: #161616 !important;
+  background-color: #161616 !important; 
 }
 
 .bg-primary {
