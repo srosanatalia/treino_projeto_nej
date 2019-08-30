@@ -12,8 +12,8 @@
 #mainNav .navbar-toggler {
   font-size: 80%;
   padding: 0.75rem;
-  color: #64a19d;
-  border: 1px solid #64a19d;
+  color: #FE642E;
+  border: 1px solid #FE642E;
 }
 
 #mainNav .navbar-toggler:focus {
@@ -74,15 +74,15 @@
     border-bottom: 0.25rem solid transparent;
   }
   #mainNav.navbar-shrink .nav-link:hover {
-    color: #64a19d;
+    color: #DF3A01;
   }
   #mainNav.navbar-shrink .nav-link:active {
-    color: #467370;
+    color: #FE642E;
   }
   #mainNav.navbar-shrink .nav-link.active {
-    color: #64a19d;
+    color: #FE642E;
     outline: none;
-    border-bottom: 0.25rem solid #64a19d;
+    border-bottom: 0.25rem solid #FE642E;
   }
 }
 
@@ -105,7 +105,7 @@
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -167,8 +167,7 @@
 }
 
 .about-section {
-  padding-top: 2
-  rem;
+  padding-top: 4rem;
   background: -webkit-gradient(linear, left top, left bottom, from(#161616), color-stop(75%, rgba(22, 22, 22, 0.9)), to(rgba(22, 22, 22, 0.8)));
   background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
 }
@@ -177,8 +176,28 @@
   margin-bottom: 5rem;
 }
 
+.about-section h5 {
+  font-size: 3rem;
+  font-family: 'Varela Round';
+}
+
+h5 {
+  color: #DF3A01;
+}
+
+.about-section h6 {
+  font-size: 5rem;
+  font-family: 'Varela Round';
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 2), rgba(255, 255, 255, 0));
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+
 .projects-section {
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 
 .projects-section .featured-text {
@@ -188,7 +207,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #FE642E;
   }
 }
 
@@ -208,35 +227,20 @@
   }
 }
 
-.signup-section {
-  padding: 10rem 0;
-  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/bg-signup.jpg");
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/bg-signup.jpg");
+.contact-section {
+  padding: 12rem 0 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(22, 22, 22, 0.1)), color-stop(75%, rgba(22, 22, 22, 0.5)), to(#161616)), url("../img/grupo2.jpg");
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.5) 75%, #161616 100%), url("../img/grupo2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
 }
 
-.signup-section .form-inline input {
-  -webkit-box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  height: auto;
-  font-family: 'Varela Round';
-  font-size: 80%;
-  text-transform: uppercase;
-  letter-spacing: 0.15rem;
-  border: 0;
-}
-
-.contact-section {
-  padding: 5rem 0 0;
-}
 
 .contact-section .card {
   border: 0;
-  border-bottom: 0.25rem solid #64a19d;
+  border-bottom: 0.25rem solid #FE642E;
 }
 
 .contact-section .card h4 {
@@ -247,13 +251,15 @@
 }
 
 .contact-section .card hr {
-  border-color: #DF3A01;
+  border-color: #FE642E;
   border-width: 0.25rem;
   width: 3rem;
 }
 
 .contact-section .social {
-  margin-top: 5rem;
+  margin-top: 2rem;
+  margin-bottom: 0px;
+  padding-bottom: 32px;
 }
 
 .contact-section .social a {
@@ -280,12 +286,12 @@ body {
 }
 
 a {
-  color: #64a19d;
+  color: #DF3A01;
 }
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #3c6360;
+  color: #FE642E;
 }
 
 .bg-black {
@@ -293,11 +299,11 @@ a:focus, a:hover {
 }
 
 .bg-primary {
-  background-color: #64a19d !important;
+  background-color: #FE642E !important;
 }
 
 .text-primary {
-  color: #64a19d !important;
+  color: #FE642E !important;
 }
 
 footer {
